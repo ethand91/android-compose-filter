@@ -21,9 +21,6 @@ import androidx.compose.ui.unit.sp
 import com.example.components.SearchBar
 import com.example.data.UserData
 import com.example.searchbartutorial.ui.theme.SearchBarTutorialTheme
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
