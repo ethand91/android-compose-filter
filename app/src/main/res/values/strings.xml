@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SearchBarTutorial</string>
+
+    <!-- for search bar -->
+    <string name="search_bar_label">Enter keywords</string>
+    <string name="search_button">Search</string>
+
+    <!-- for home -->
+    <string name="no_users_text">No Users Found</string>
+</resources>
