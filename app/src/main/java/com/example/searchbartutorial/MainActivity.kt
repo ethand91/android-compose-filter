@@ -2,7 +2,6 @@ package com.example.searchbartutorial
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.*
@@ -61,11 +60,9 @@ fun MainScreen() {
                     user.name.lowercase().contains(it.lowercase())
                 }
 
-                Log.d("Main", result.size.toString())
                 if (result.isNotEmpty()) {
                     filteredUsers.value = result.toMutableStateList()
                 } else {
-                    Log.d("Main", "hello")
                     filteredUsers.value = mutableListOf<UserData>()
                 }
             })
